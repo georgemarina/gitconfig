@@ -1,0 +1,29 @@
+[user]
+	name = georgemarina
+	email = georgemarina200035@gmail.com
+
+[alias]
+	st = status
+	cm = commit -m
+	unstage = reset HEAD --
+	br = branch
+	pom = push origin main
+	po = pull origin
+	co = checkout
+	rao = remote add origin
+	ss = stash save
+	sl = stash list
+	sll = stash-list
+	slll = stash-list --full
+	sp = stash pop
+	sa = stash apply
+	sd = stash drop
+	ssh = stash show
+	sc = stash clear
+	sb = stash branch
+	restage = restore --staged
+	cn = clean -n
+	cf = clean -f
+
+[init]
+	defaultbranch = main
